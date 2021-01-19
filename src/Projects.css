@@ -1,0 +1,70 @@
+.projects__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.projects__container > .project__title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 20px;
+  flex: 1 1 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.projects__container > .project__ {
+  flex: 0 1 25%;
+  padding-top: 20px;
+  padding: 0 10px;
+  background-color: white;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  border-radius: 10px;
+}
+.project__image {
+  margin: auto;
+  align-items: center;
+  margin-top: 20px;
+  display: block;
+  width: 285px;
+  height: 190px;
+  object-fit: contain;
+  transition: transform 450ms;
+  border: 1px solid black;
+}
+.project__image:hover {
+  transform: scale(1.02);
+}
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.project__ > div {
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.made__with {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-left: 2px;
+}
+.text_link {
+  text-decoration: none;
+  color: inherit;
+}
+.link__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.technologies__used {
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+}

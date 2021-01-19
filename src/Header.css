@@ -1,0 +1,31 @@
+.header__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: 20px;
+}
+.header__container > * {
+  flex: 1 1 20%;
+}
+.header__name {
+  flex: 1 0 60%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+}
+.header__name > p {
+  font-size: 30px;
+  margin-left: 10px;
+  align-items: center;
+  color: white;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 30px;
+  margin-left: 10px;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  display: flex;
+}

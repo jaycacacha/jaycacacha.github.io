@@ -1,0 +1,83 @@
+.contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+}
+.contact__container > * {
+  flex: 1 1 45%;
+}
+.input__field {
+  display: block;
+  min-width: 300px;
+  line-height: 2;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.message__field {
+  margin-top: 4px;
+  font-size: 14px;
+  width: 300px;
+  height: 200px;
+}
+.contact__form {
+  padding: 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__form > * {
+  flex: 1 1 100%;
+}
+.contact__right > p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 350;
+}
+.contact__right {
+  background-color: white;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  border-radius: 10px;
+}
+.status__text {
+  font-size: 2px;
+  text-align: center;
+}
+.contact__left {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  border-radius: 10px;
+}
+.contact__left > * {
+  flex: 1 1 100%;
+}
+.socialmedia__title {
+  font-size: 27px;
+  font-weight: 350;
+}
+.social__img > img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.social__img {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.img__link {
+  text-decoration: none;
+  color: inherit;
+}
+.img__link > img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}

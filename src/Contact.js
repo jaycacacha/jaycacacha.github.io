@@ -5,7 +5,6 @@ import FacebookImg from "./img/facebook.png";
 import LinkedInImg from "./img/linkedin.png";
 import CallImg from "./img/call.png";
 import GithubImg from "./img/github.png";
-import { Link } from "react-router-dom";
 
 function Contact() {
   const [status, setStatus] = useState("");
@@ -38,33 +37,36 @@ function Contact() {
         </div>
         <div className="social__img">
           <img src={FacebookImg} alt="fb-img"></img>
-          <Link
+          <a
             className="img__link"
-            to={{ pathname: "https://facebook.com/jcacacha" }}
+            href="https://facebook.com/jcacacha"
             target="_blank"
+            rel="noreferrer"
           >
             <p>&nbsp;&nbsp;&nbsp;Facebook</p>
-          </Link>
+          </a>
         </div>
         <div className="social__img">
           <img src={GithubImg} alt="github-img"></img>
-          <Link
+          <a
             className="img__link"
-            to={{ pathname: "https://github.com/jaycacacha" }}
+            href="https://github.com/jaycacacha"
             target="_blank"
+            rel="noreferrer"
           >
             <p>&nbsp;&nbsp;&nbsp;Github</p>
-          </Link>
+          </a>
         </div>
         <div className="social__img">
           <img src={LinkedInImg} alt="linkedin-img"></img>
-          <Link
+          <a
             className="img__link"
-            to={{ pathname: "https://www.linkedin.com/in/jay-cacacha/" }}
+            href="https://www.linkedin.com/in/jay-cacacha/"
             target="_blank"
+            rel="noreferrer"
           >
             <p>&nbsp;&nbsp;&nbsp;LinkedIn</p>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="contact__right">

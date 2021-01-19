@@ -3,11 +3,12 @@ import Header from "./Header";
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* // <BrowserRouter basename={window.location.pathname || ""}> */}
       <div className="App">
         <Switch>
           <Route path="/" exact>
@@ -32,7 +33,7 @@ function App() {
           ></Route>
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

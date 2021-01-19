@@ -10,7 +10,6 @@ import AmazonGif from "./img/amazon.gif";
 import NetflixGif from "./img/netflix.gif";
 import RecipeGif from "./img/recipe_app.gif";
 import MemeGif from "./img/meme_generator.gif";
-import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -33,23 +32,25 @@ function Projects() {
         </div>
         <div className="link__container">
           <GitHubIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://github.com/jaycacacha/amazon-clone" }}
+            href="https://github.com/jaycacacha/amazon-clone"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Github Repo</span>
-          </Link>
+          </a>
         </div>
         <div className="link__container">
           <LiveTvIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://clone-f6d1b.web.app/login" }}
+            href="https://clone-f6d1b.web.app/login"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Live Demo</span>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="project__">
@@ -68,23 +69,25 @@ function Projects() {
         </div>
         <div className="link__container">
           <GitHubIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://github.com/jaycacacha/recipe-app" }}
+            href="https://github.com/jaycacacha/recipe-app"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Github Repo</span>
-          </Link>
+          </a>
         </div>
         <div className="link__container">
           <LiveTvIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://recipe-app-2021.netlify.app/" }}
+            href="https://recipe-app-2021.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Live Demo</span>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="project__">
@@ -104,23 +107,25 @@ function Projects() {
         </div>
         <div className="link__container">
           <GitHubIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://github.com/jaycacacha/netflix-clone" }}
+            href="https://github.com/jaycacacha/netflix-clone"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Github Repo</span>
-          </Link>
+          </a>
         </div>
         <div className="link__container">
           <LiveTvIcon />
-          <Link
+          <a
             className="text_link"
-            to={{ pathname: "https://netflix-clone-5dc96.web.app/" }}
+            href="https://netflix-clone-5dc96.web.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Live Demo</span>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="project__">
@@ -139,27 +144,25 @@ function Projects() {
         </div>
         <div className="link__container">
           <GitHubIcon />
-          <Link
+          <a
             className="text_link"
-            to={{
-              pathname: "https://github.com/jaycacacha/meme-generator-clone",
-            }}
+            href="https://github.com/jaycacacha/meme-generator-clone"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Github Repo</span>
-          </Link>
+          </a>
         </div>
         <div className="link__container">
           <LiveTvIcon />
-          <Link
+          <a
             className="text_link"
-            to={{
-              pathname: "https://jaycacacha.github.io/meme-generator-clone/",
-            }}
+            href="https://jaycacacha.github.io/meme-generator-clone/"
             target="_blank"
+            rel="noreferrer"
           >
             <span>&nbsp;&nbsp;Live Demo</span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

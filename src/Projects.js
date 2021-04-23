@@ -45,7 +45,7 @@ function Projects() {
           <LiveTvIcon />
           <a
             className="text_link"
-            href="https://clone-f6d1b.web.app/login"
+            href="https://clone-f6d1b.web.app"
             target="_blank"
             rel="noreferrer"
           >
